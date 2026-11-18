@@ -1,0 +1,12 @@
+{
+  "name": "quicktracker-js-renderer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Renders JavaScript-heavy sites with a real headless browser and pushes the result into QuickTracker, on a free GitHub Actions schedule.",
+  "scripts": {
+    "render": "node render.js"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
